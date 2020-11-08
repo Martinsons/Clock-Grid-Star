@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 header {
@@ -48,7 +48,7 @@ header {
 
 /* GRID SECTION */
 section {
-  padding: 80px 20px;
+  padding: 80px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,14 +57,13 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 31px;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
   grid-template-areas: 
   'card-1 card-1 card-2 card-3'
   'card-4 card-5 card-5 card-3';
   font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 
 .card-1 {
@@ -123,38 +122,21 @@ small {
 }
 
 .h2 {
-  font-weight: 600;
-  font-size: 27px;
+  font-weight: 600;  
 }
 
 .p {
   padding-top: 20px;
   line-height: 25px;
   font-weight: 500;
-  font-size: 14px;
   opacity: 70%;
 }
 
 .card {
   border-radius: 20px;
-  padding: 20px 40px;
+  padding: 20px 30px;
 
 }
 
 
 
-@media screen and (max-width: 800px){
-  header {
-    height: 100vh;
-  }
-
-  .time-container {
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .margin-20 {
-    font-size: 100px;
-  }
-}
