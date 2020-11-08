@@ -141,15 +141,6 @@ small {
 
 }
 
-/* @media screen and (max-width: 1320px){
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-  'card-1 card-1 card-2 card-4'
-  'card-3 card-3 card-5 card-5';
-  }
-} */
 
 @media screen and (max-width: 800px){
   header {
