@@ -155,18 +155,18 @@
 
 .text-stars .card__star_1 {
   position: absolute;
-  left: -40%;
+  left: -50%;
 
 }
 
 .text-stars .card__star_2 {
   position: absolute;
-  left: -20%;
+  left: -30%;
 }
 
 .text-stars .card__star_3 {
   position: absolute;
-  left: -0%;
+  left: -10%;
 }
 
 }
