@@ -188,6 +188,8 @@ small {
   border-radius: 10px;
 }
 
+
+
 .client-cards {
   display: flex;
   flex-direction: column;
@@ -199,6 +201,10 @@ small {
   border-radius: 10px;
   padding: 30px;
   background: hsl(300, 43%, 22%);
+}
+
+.client-card:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .author {
