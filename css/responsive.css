@@ -99,6 +99,30 @@
     'card-3 card-3'
     'card-5 card-5';
   }
+
+  .stars {
+    position: relative;
+    height: 350px;
+    width: 50%;
+  }
+
+  .card__star_1 {
+    position: absolute;
+    top: 10%;
+    left: -20%;
+  }
+
+  .card__star_2 {
+    position: absolute;
+    top: 35%;
+    left: 5%
+  }
+
+  .card__star_3 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+  }
 }
 
 @media screen and (min-width: 1200px){
@@ -112,6 +136,39 @@
   'card-4 card-5 card-5 card-3';
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.container .text-stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-section {
+  width: 50%;
+  margin-right: 80px;
+}
+
+.text-stars .stars {
+  position: relative;
+  width: 30%;
+}
+
+.text-stars .card__star_1 {
+  position: absolute;
+  left: -40%;
+
+}
+
+.text-stars .card__star_2 {
+  position: absolute;
+  left: -20%;
+}
+
+.text-stars .card__star_3 {
+  position: absolute;
+  left: -0%;
+}
+
 }
 
 
@@ -119,6 +176,10 @@
   .time-container {
     flex-direction: row;
   }
+
+  
+
+  
 }
 
 
