@@ -33,10 +33,9 @@ header {
 
 .time-container {
   display: flex;
-  align-items: center;
 }
 
-.margin-20 {
+/* .margin-20 {
   margin: 20px;
   font-size: 150px;
   padding: 0 25px;
@@ -44,18 +43,17 @@ header {
   color: #ffffff;
   background-color: rgba(190, 254, 216, .3);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
-}
+} */
 
 /* GRID SECTION */
 section {
-  padding: 80px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(210, 46%, 95%);
 }
 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -64,7 +62,7 @@ section {
   'card-1 card-1 card-2 card-3'
   'card-4 card-5 card-5 card-3';
   font-family: 'Barlow Semi Condensed', sans-serif;
-}
+} */
 
 .card-1 {
   grid-area: card-1;
